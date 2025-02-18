@@ -5,6 +5,7 @@ public class delivery {
         float burger = 3.00f;
         float fanta = 4.00f;
         float chickenburger = 5.00f;
+        float cheeseburger = 6.00f;
 
 
     }
