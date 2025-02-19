@@ -1,6 +1,8 @@
 import java.util.regex.*;
 import java.util.Scanner;
 
+
+// based on lieferando system
 public class delivery {
     public static void main(String[] args) {
 
@@ -30,8 +32,9 @@ public class delivery {
         float kebab = 7.00f;
         float pizza = 8.00f;
         float schnitzel = 9.00f;
+        int FreeDelivery = 15; // Free delivery for orders over 15euro like the actual one
 
-
+// order system needs rework for free delivery
         if (burgerMatch.matches()) {
             System.out.println("You have ordered a Burger");
             System.out.println("Hamburger: " + burger + "€");
